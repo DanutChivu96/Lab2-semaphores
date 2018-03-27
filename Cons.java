@@ -9,7 +9,7 @@ public class Cons extends Thread {
 	Queue<Integer> queue; 
 	Semaphore semFree;
 	Semaphore semFull;
-    private Lock lock;
+   	private Lock lock;
     
 	public Cons(Queue<Integer> queue, Lock lock, Semaphore semFree, Semaphore semFull) {
 
